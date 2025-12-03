@@ -1,0 +1,52 @@
+{
+  "name": "project-hub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "r4mxae",
+  "description": "Project Hub - Comprehensive management application for tracking projects, tasks, procurement, and analytics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r4mxae/project-hub.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:check": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.263.1",
+    "recharts": "^2.10.3",
+    "xlsx": "^0.18.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "sonner": "^2.0.3",
+    "react-hook-form": "^7.55.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "tailwindcss": "^4.0.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
